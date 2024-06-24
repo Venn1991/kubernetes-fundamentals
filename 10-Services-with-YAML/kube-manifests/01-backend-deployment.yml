@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: backend-restapp
-          image: stacksimplify/kube-helloworld:1.0.0
+          image: http:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 80
